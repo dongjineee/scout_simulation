@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <include file="$(find scout_gazebo)/launch/warehouse.launch" />
+
+  <include file="$(find scout_gazebo)/launch/spawn_scout.launch">
+  </include>
+
+</launch>

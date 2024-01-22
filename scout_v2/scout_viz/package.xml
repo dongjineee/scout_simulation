@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>scout_viz</name>
+  <version>0.6.0</version>
+  <description>Visualization configuration for Scout</description>
+  <maintainer email="kim87@kimm.re.kr">Sanghyun Kim</maintainer>
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslaunch</build_depend>
+
+  <run_depend>scout_description</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>joint_state_publisher_gui</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>rviz_imu_plugin</run_depend>
+
+  <export>
+  </export>
+</package>

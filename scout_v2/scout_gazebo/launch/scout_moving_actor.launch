@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <include file="$(find scout_gazebo)/launch/moving_actor.launch" />
+
+  <include file="$(find scout_gazebo)/launch/spawn_scout.launch">
+  </include>
+
+</launch>

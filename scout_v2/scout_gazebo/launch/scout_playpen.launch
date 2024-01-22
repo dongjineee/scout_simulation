@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find scout_gazebo)/models"/>
+  <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find scout_gazebo)/models"/>
+  
+  <include file="$(find scout_gazebo)/launch/playpen.launch" />
+
+  <include file="$(find scout_gazebo)/launch/spawn_scout.launch">
+  </include>
+
+</launch>

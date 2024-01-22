@@ -1,0 +1,11 @@
+global_frame: map
+rolling_window: true
+track_unknown_space: true
+max_obstacle_width: 8.0
+max_obstacle_height: 8.0
+width: 15
+height: 15
+
+plugins:
+  - {name: obstacles_laser,           type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation,                 type: "costmap_2d::InflationLayer"}
