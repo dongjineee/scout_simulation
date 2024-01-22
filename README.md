@@ -6,8 +6,7 @@ This project makes use of the following external repositories:
 2. [ugv_gazebo_sim](https://github.com/agilexrobotics/ugv_gazebo_sim)
 
 ## Spawn Scout
-
-  $ roslaunch scout_gazebo scout_empty_world.launch
+    $ roslaunch scout_gazebo scout_empty_world.launch
 
 ## Scout Control
 
