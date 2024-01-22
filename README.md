@@ -7,7 +7,7 @@ This project makes use of the following external repositories:
 
 ## Spawn Scout
 
-$ roslaunch scout_gazebo scout_empty_world.launch
+  $ roslaunch scout_gazebo scout_empty_world.launch
 
 ## Scout Control
 
